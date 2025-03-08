@@ -44,7 +44,7 @@ function merge<T>(a:T ,b:T){
 const ids = merge<number>(1,2)
 console.log("ids are", ids)
 
-// 3. Multiple parameters:
+// 3.1 Multiple parameters:
 
 function merge_<T, U>(a:T ,b:U){
    return [a,b]
@@ -53,7 +53,7 @@ function merge_<T, U>(a:T ,b:U){
 const ids_ = merge_<number, string>(1,"2")
 console.log("ids are", ids_)
 
-// 4. Generics with Constratins
+// 3.2 Generics with Constratins
 
 function mergeObj<T extends Object>(a:T,b:T) {
    return {...a,...b}
