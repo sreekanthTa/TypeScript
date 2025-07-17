@@ -24,7 +24,7 @@
  
 // 1. Generic Types:
 type Datastore<T> = {
-    [key:string] : T  //[Dynamic key] if we dont know the type prior, Pass Type as in placeholder T
+    [key:string] : T  //[Dynamic key].  if we dont know the type prior, Pass Type as in placeholder T
 }
 
 let store:Datastore<string | number | boolean> = {}
