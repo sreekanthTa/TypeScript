@@ -25,7 +25,7 @@ constructor(public email: string, public password: string){
    this.password
 }
 login: () => {
-    // console.log("Login Functionality")
+    console.log("Login Functionality")
 }
 }
 
