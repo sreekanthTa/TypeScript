@@ -44,7 +44,6 @@ login: () => {
 
 //2.WE CAN EXTEND interfaces from other interfaces, interface one extends interfaceOne, interfaceTwo{}
 
-
 //3. Using Interfaces To Define Function Types
 // A lesser known but nonetheless interesting feature of TypeScript interfaces is that you can also use them to define function types.
 
